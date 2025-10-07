@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=3 uid="uid://1q7xqqitbege"]
+
+[ext_resource type="Texture2D" uid="uid://bhlu24irjpnab" path="res://bamboo stick.png" id="1_wjw3y"]
+[ext_resource type="Texture2D" uid="uid://rob7muq6n7r8" path="res://panda.png" id="2_6lri2"]
+
+[node name="Sprite2D" type="Sprite2D"]
+position = Vector2(90, 612)
+rotation = -1.1431906
+scale = Vector2(0.097372726, 0.09431274)
+texture = ExtResource("1_wjw3y")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(509.62482, 540.9109)
+rotation = -1.1431906
+scale = Vector2(1.0018746, 0.7093874)
+texture = ExtResource("1_wjw3y")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(-592.0101, 304.27243)
+rotation = -1.1431906
+scale = Vector2(1.0018746, 0.7093874)
+texture = ExtResource("1_wjw3y")
+
+[node name="Panda2" type="Sprite2D" parent="."]
+position = Vector2(3728.809, 7322.588)
+rotation = 1.1588986
+scale = Vector2(6.4952235, 6.652756)
+texture = ExtResource("2_6lri2")
